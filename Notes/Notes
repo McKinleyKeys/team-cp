@@ -1,0 +1,86 @@
+
+
+//You can click on a unit to toggle it showing its direction with a straight line.
+
+
+
+
+
+
+
+
+
+
+
+
+poison damages unit at start of mage's turn
+units re-spawn during their opponent's turn
+a unit's view is limitless
+statues attack and heal-bots heal at start of turn
+super-charging a unit does not remove its poison effect
+heal-bot heals the most damaged adjacent unit at start of turn
+same unit can only be healed twice each round
+all maps posX and posY are 1, 1. if not, change GameDisplay.drawBoard()
+blue spawn is dark blue, red spawn is dark red
+TNT-Guy can place four TNT
+friendly units cannot shoot through each other
+mage has a range of 4
+knight deals 3 damage at a range of 4 and 2 damage at a range < 6
+healer's heal range is 3
+TNT Guy's range is 4
+statue's range is 8
+heal bot can only heal adjacent units
+mage air-blasting TNT un-primes it
+mage air-blasting units deals damage equal to the distance between the units
+
+
+
+Buttons
+
+move
+change direction
+attack
+attack number
+confirm
+end phase
+
+
+
+TODO:
+bind a key to toggle sight-line = 1 or 100;
+statue FOV
+
+
+
+
+
+
+
+//test checkPath()
+//test lots of values for checkRange() with findUnit false
+//test updatePlayerView()
+//healing
+//test statue and heal-bot stuff
+//statue attacking and heal-bot healing
+//finish statue and heal-bot
+//GameDisplay.drawBoard() make outline selected square work with flip and button select square work with flip
+//screen
+//TNT-Guy TNT
+//input class
+//Archer
+//Mage
+//Builder
+//Knight
+//finalize board
+//Scout
+//console messages that were posted a whole turn ago are grey
+
+
+
+
+
+To change enable change direction phase:
+    
+    Edit main loop
+    Edit Input class
+    Edit GameDisplay #636 and #856
